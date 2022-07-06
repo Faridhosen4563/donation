@@ -72,6 +72,10 @@ body {
 
 }
 
+.flexible-container h1:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
 .flexible-container h1 {
     width: 100px;
 

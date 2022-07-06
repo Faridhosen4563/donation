@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.back-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("donate-today-main/images/donation4.jpg");
+
+    height: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    text-align: center;
+
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.donate-now {
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.donate-today {
+    text-align: center;
+    justify-content: center;
+}
+
+.flexible-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.flexible-container h1 {
+    width: 100px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px;
+    background-color: rgba(190, 186, 183, 0.1);
+}
+
+#bg-color {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 1px solid red;
+}
+
+input[type=text] {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input {
+    margin-bottom: 30px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    margin-top: 100px;
+
+    border-radius: 10px;
+}
+
+
+
+.donate-plan {
+    display: inline-flex;
+}
+
+.part-plan {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.plan {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#food {
+    padding-top: 30px;
+    background-color: aquamarine;
+}
+
+#shelter {
+    padding-top: 30px;
+    background-color: burlywood;
+}
+
+#education {
+    padding-top: 30px;
+    background-color: darksalmon;
+}
+
+.extra {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.recent-work {
+    display: inline-flex;
+}
+
+.half-width {
+    width: 50%;
+    box-shadow: 10px 5px 10px grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: orange;
+
+}
+
+.link:hover {
+    background-color: greenyellow;
+}
+
+#first-box img {
+    width: 90%;
+}
+
+#second-box img {
+    width: 100%;
+}
+
+.update {
+    margin-top: 50px;
+}
+
+.email {
+    width: 50%;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+#email-style {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+input[type=button] {
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: -4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=email] {
+    background-color: rgba(204, 200, 200, 0.67);
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: text;
+}
+
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    height: 80%;
+
+}
+
+footer h2 {
+    padding-top: 30px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Satisfy', cursive;
+}
+
+footer p {
+    color: white;
+    font-size: x-small;
+    padding-bottom: 20px;
+}
